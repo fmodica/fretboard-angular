@@ -1,0 +1,25 @@
+<div #fretboard>
+  <tuning *ngIf="config" [(value)]="config.tuning" [api]="api" (onNotesChanged)="onNotesChanged()"></tuning>
+  <num-frets *ngIf="config" [(value)]="config.numFrets" [api]="api" (onNotesChanged)="onNotesChanged()"></num-frets>
+  <is-chord-mode *ngIf="config" [(value)]="config.isChordMode" [api]="api"></is-chord-mode>
+  <note-clicking-disabled *ngIf="config" [(value)]="config.noteClickingDisabled" [api]="api"></note-clicking-disabled>
+  <note-mode *ngIf="config" [(value)]="config.noteMode" [api]="api"></note-mode>
+  <intervals *ngIf="config" [(value)]="config.intervals" [api]="api"></intervals>
+  <interval-root *ngIf="config" [(value)]="config.root" [api]="api" (onNotesChanged)="onNotesChanged()"></interval-root>
+  <animation-speed *ngIf="config" [(value)]="config.animationSpeed" [api]="api"></animation-speed>
+  <note-letters *ngIf="config" [(value)]="config.noteLetters" [api]="api"></note-letters>
+  <note-circles *ngIf="config" [(value)]="config.noteCircles" [api]="api"></note-circles>
+  <dimensions-func *ngIf="config" [(value)]="config.dimensionsFunc" [api]="api"></dimensions-func>
+  <all-notes *ngIf="config" 
+             [(value)]="config.allNotes" 
+             [api]="api" 
+             (registerAllNotesModelUpdateFn)="registerAllNotesModelUpdateFn($event)">
+  </all-notes>
+  <clicked-notes *ngIf="config"
+                 [(value)]="config.clickedNotes" 
+                 (valueChange)="onClickedNotesModelUpdated()"
+                 [api]="api" 
+                 (registerClickedNotesModelUpdateFn)="registerClickedNotesModelUpdateFn($event)"
+                 (onNotesChanged)="onNotesChanged()">
+  </clicked-notes>
+</div>

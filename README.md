@@ -1,6 +1,20 @@
-# FretboardAngular
+# Fretboard
+
+An Angular component which wraps the <a href="https://github.com/fmodica/fretboard">jQuery plugin</a>.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.0.
+
+## Demo
+
+Check out the <a href="http://frankmodica.azurewebsites.net/static/fretboarddemo/angular-2/dist/index.html">demo fretboard (default styles)</a>, which shows the fretboard and the config updated in real time.
+
+## Setup 
+
+```
+git submodule init
+git submodule update
+npm install
+```
 
 ## Development server
 
@@ -25,3 +39,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## AngularJS 1 Directive
+
+If you are using Angular 1, the fretboard is also wrapped as an <a href="https://github.com/fmodica/fretboard-angular-1">Angular 1 directive</a>.
