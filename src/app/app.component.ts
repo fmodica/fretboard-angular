@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Interfaces } from './fretboard-module/fretboard.module';
+import { Interfaces } from '../../fretboard-module/fretboard.module';
 
 @Component({
   selector: 'app-root',

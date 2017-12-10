@@ -1,3 +1,3 @@
-[submodule "src/app/fretboard-module/fretboard"]
-	path = src/app/fretboard-module/fretboard
+[submodule "fretboard-module/fretboard"]
+	path = fretboard-module/fretboard
 	url = git@github.com:fmodica/fretboard.git

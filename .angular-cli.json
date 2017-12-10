@@ -19,12 +19,12 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "app/fretboard-module/fretboard/jquery-plugin/styles.css",
-        "app/fretboard-module/fretboard/jquery-plugin/demo-styles.css"
+        "..//fretboard-module/fretboard/jquery-plugin/styles.css",
+        "../fretboard-module/fretboard/jquery-plugin/demo-styles.css"
       ],
       "scripts": [
-        "app/fretboard-module/fretboard/jquery-plugin/jquery.js",
-        "app/fretboard-module/fretboard/jquery-plugin/fretboard.js"
+        "../fretboard-module/fretboard/jquery-plugin/jquery.js",
+        "../fretboard-module/fretboard/jquery-plugin/fretboard.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
