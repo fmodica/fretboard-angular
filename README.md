@@ -6,7 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Demo
 
-Check out the <a href="http://frankmodica.azurewebsites.net/static/fretboarddemo/angular-2/dist/index.html">demo fretboard (default styles)</a>, which shows the fretboard and the config updated in real time.
+Check out the <a href="http://frankmodica.net/static/fretboarddemo/angular-2/dist/index.html">demo fretboard (default styles)</a>, which shows the fretboard and the config updated in real time.
 
 
 ## AngularJS 1 Directive
